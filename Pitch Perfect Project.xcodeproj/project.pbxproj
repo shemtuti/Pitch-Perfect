@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		03C5004C2928E75A00BC2A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5004B2928E75A00BC2A03 /* AppDelegate.swift */; };
 		03C5004E2928E75A00BC2A03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5004D2928E75A00BC2A03 /* SceneDelegate.swift */; };
-		03C500502928E75A00BC2A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5004F2928E75A00BC2A03 /* ViewController.swift */; };
+		03C500502928E75A00BC2A03 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5004F2928E75A00BC2A03 /* RecordSoundsViewController.swift */; };
 		03C500532928E75A00BC2A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C500512928E75A00BC2A03 /* Main.storyboard */; };
 		03C500552928E75F00BC2A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C500542928E75F00BC2A03 /* Assets.xcassets */; };
 		03C500582928E75F00BC2A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C500562928E75F00BC2A03 /* LaunchScreen.storyboard */; };
+		03C500602928ECA300BC2A03 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5005F2928ECA300BC2A03 /* PlaySoundsViewController.swift */; };
+		03C500642929171600BC2A03 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C500632929171600BC2A03 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03C500482928E75A00BC2A03 /* Pitch Perfect Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C5004B2928E75A00BC2A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C5004D2928E75A00BC2A03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03C5004F2928E75A00BC2A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C5004F2928E75A00BC2A03 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		03C500522928E75A00BC2A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C500542928E75F00BC2A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C500572928E75F00BC2A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C500592928E75F00BC2A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C5005F2928ECA300BC2A03 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		03C500632929171600BC2A03 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				03C5004B2928E75A00BC2A03 /* AppDelegate.swift */,
 				03C5004D2928E75A00BC2A03 /* SceneDelegate.swift */,
-				03C5004F2928E75A00BC2A03 /* ViewController.swift */,
+				03C5004F2928E75A00BC2A03 /* RecordSoundsViewController.swift */,
 				03C500512928E75A00BC2A03 /* Main.storyboard */,
 				03C500542928E75F00BC2A03 /* Assets.xcassets */,
 				03C500562928E75F00BC2A03 /* LaunchScreen.storyboard */,
 				03C500592928E75F00BC2A03 /* Info.plist */,
+				03C5005F2928ECA300BC2A03 /* PlaySoundsViewController.swift */,
+				03C500632929171600BC2A03 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = "Pitch Perfect Project";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C500502928E75A00BC2A03 /* ViewController.swift in Sources */,
+				03C500642929171600BC2A03 /* PlaySoundsViewController+Audio.swift in Sources */,
+				03C500502928E75A00BC2A03 /* RecordSoundsViewController.swift in Sources */,
 				03C5004C2928E75A00BC2A03 /* AppDelegate.swift in Sources */,
+				03C500602928ECA300BC2A03 /* PlaySoundsViewController.swift in Sources */,
 				03C5004E2928E75A00BC2A03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +300,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +326,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
